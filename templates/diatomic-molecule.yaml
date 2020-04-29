@@ -17,7 +17,7 @@ spec:
         raw:
           data: |
             import json
-            from diatomic_molecule import create_diatomic_molecule_geometry
+            from diatomicmolecule import create_diatomic_molecule_geometry
             geometry = create_diatomic_molecule_geometry('{{inputs.parameters.species1}}',
                                                          '{{inputs.parameters.species2}}',
                                                          {{inputs.parameters.bond-length}}) 
